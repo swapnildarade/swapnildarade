@@ -9,12 +9,13 @@ public class Calculator {
       double ans;
       char op;
       Scanner reader = new Scanner(System.in);
-     
+      System.out.println("enter 1st no");
       num1 = reader.nextDouble();
       
-   
+      System.out.println("enter operation");
       op = reader.next().charAt(0);
       
+      System.out.println("enter 2nd no");
       num2 = reader.nextDouble();
       switch(op) {
          case '+': ans = num1 + num2;
