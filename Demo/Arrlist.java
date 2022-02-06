@@ -1,6 +1,7 @@
 package Demo;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Arrlist {
 
@@ -19,6 +20,16 @@ public class Arrlist {
 		list.remove(3);
 		System.out.println(list);
 		
+		list.add(2, 5);
+		System.out.println(list);
+		
+		
+		
+		Iterator itr=list.iterator();  
+		while(itr.hasNext())
+			{  
+			System.out.println(itr.next());  
+			}  
 	
 	}
 	

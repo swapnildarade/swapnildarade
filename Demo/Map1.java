@@ -9,8 +9,6 @@ public class Map1 {
 
 	        Map<Integer, String> m1 = new HashMap<>();
 
-	      
-
 	     
 
 	        m1.put(1, "one ");
