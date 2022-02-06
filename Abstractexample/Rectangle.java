@@ -1,22 +1,16 @@
 package Abstractexample;
 
-public class Rectangle  extends Shape {
+public class Circle extends Shape{
 
+	double r;
 	
-	      double width, length; 
-
-	      
-	      public Rectangle(double width, double length) {
-	          this.width = width;
-	          this.length = length;
-	      }
-
-	    @Override
-	    public double area() {
-	       
-	        return width * length;
+	 public Circle(double r) {
+	        this.r = r;
 	    }
+	@Override
+	public double area() {
+	       
+        return  3.142*r*r;
+    }
 
-	   
-
-	}
+}
