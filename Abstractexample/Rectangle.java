@@ -1,10 +1,22 @@
 package Abstractexample;
 
-public class Rectangle {
+public class Rectangle  extends Shape {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	
+	      double width, length; 
+
+	      
+	      public Rectangle(double width, double length) {
+	          this.width = width;
+	          this.length = length;
+	      }
+
+	    @Override
+	    public double area() {
+	       
+	        return width * length;
+	    }
+
+	   
 
 	}
-
-}
