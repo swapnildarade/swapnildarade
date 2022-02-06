@@ -1,10 +1,10 @@
 package Abstractexample;
 
-public class Shape {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
+public abstract class Shape {
+    public abstract double area();
+    
+    {
+    	
+    }
 
 }
